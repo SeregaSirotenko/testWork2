@@ -4,6 +4,4 @@ include 'functions.php';
 
 $mytext = $_POST['text'];
 
-robotChat($mytext);
-
-?>
+echo robotChat($mytext);

@@ -1,6 +1,6 @@
 <?php
 
-include 'functions.php';
+include __DIR__ . '/functions.php';
 
 $mytext = $_POST['text'];
 

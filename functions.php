@@ -3,26 +3,28 @@
 header('Content-Type: text/html; charset=utf-8');
 
 /**
-*@param string $text string to output
-*@author Sergey
-*@return string
+* Функция реализует функционал чата
+*
+* @author Sergey
+* @param string $text string to output
+* @return string
 */
 function robotChat($text){
 
     switch ($text) {
         case 'Привет':
-            return "И тебе привет";
+            return 'И тебе привет';
             break;
 
         case 'Как дела?':
-            return "Замечательно, спасибо!";
+            return 'Замечательно, спасибо!';
             break;
 
         case 'Чем занимаешься?':
-            return "Собираюсь кушать!";
+            return 'Собираюсь кушать!';
             break;
 
         default:
-            echo "Я еще не способен ответить на такой вопрос!";
+            return 'Я еще не способен ответить на такой вопрос!';
     }
 }
